@@ -1,0 +1,23 @@
+.wufoo .info h2 {
+display: none !important;
+}
+
+.wufoo2 .info h2 {
+font-family: 'Nunito', sans-serif;
+color: #ccc !important;
+margin-top: 0px;
+font-style: normal;
+font-weight: 900;
+font-size: 40px !important;
+letter-spacing: -.5px;
+margin-bottom: 0;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+  font-family: 'verdana';
+  color:#fff !important;
+}
+
+.wufoo .info, .wufoo .paging-context {
+  border-bottom: 1px dotted #fff;
+}

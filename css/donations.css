@@ -1,0 +1,141 @@
+.save_animals_payment_page {
+  margin-top: -50px;
+}
+
+.save_animals_payment_box {
+  background-color: #ffffff;
+  max-width: 1080px;
+  margin: auto auto 30px auto;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 5px 9px 30px 0px rgb(34 34 34 / 13%);
+  overflow: hidden;
+}
+
+.save_animals_header {
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.save_animals_payment_information {
+  background-color: #f6f6f6;
+  padding: 40px 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .save_animals_payment_information {
+    padding: 40px 5px;
+  }
+  #stripe_badge_desktop {
+    display: none;
+  }
+  #stripe_badge_mobile {
+    display: block !important;
+  }
+}
+
+#digi_wallet {
+  text-align: center;
+}
+
+.paypal_pay_section_btn a{
+background-color: #fff;
+border: 1px solid #e0e0e0;
+border-radius: 6px;
+padding: 11px 20px;
+width: 100%;
+display: inline-block;
+}
+.payment_information_section .form-group {
+margin-bottom: 20px;
+}
+.btn {
+color: #fff;
+font-size: 16px;
+font-weight: normal;
+padding: 12px 30px !important;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin: 20px 0 10px;
+box-shadow: 0px 10px 20px 0px rgb(219 74 0 / 30%);
+width: 100%;
+display: inherit;
+}
+.payment_information_section select#donation_billing_address_country_code {
+border: none;
+box-shadow: none;
+border-radius: 5px;
+height: 46px;
+font-size: 16px;
+width: 100%;
+padding: 6px 12px;
+color: #7f8b97;
+outline: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+background-repeat: no-repeat;
+background-position-x: 95%;
+background-position-y: 21px;
+}
+.checkbox, .radio {
+position: relative;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.checkbox_cust_sin {
+color: #7e7e7e;
+cursor: pointer;
+font-size: 14px;
+display: inline-block;
+font-weight: 400;
+max-width: 100%;
+padding-left: 35px;
+margin-bottom: 0 !important;
+}
+.checkbox_cust_sin > input {
+height: 24px;
+width: 24px;
+position: absolute;
+margin-left: -35px;
+margin-top: -1px;
+}
+.or_paypal_bar {
+border-top: 1px solid #e0e0e0;
+position: relative;
+}
+.or_paypal_bar span {
+margin: auto;
+position: absolute;
+width: 30px;
+text-align: center;
+background-color: #f6f6f6;
+left: 0;
+right: 0;
+top: -10px;
+font-size: 13px;
+color: #222222;
+}
+.right_amount_section_pay {
+border: 1px solid #e0e0e0;
+background-color: #fff;
+border-radius: 5px;
+padding: 30px 40px 40px;
+}
+.get-point-pic-border-getway {
+border-bottom: 2px solid #f26821;
+width: 80px;
+margin: auto;
+padding-top: 14px;
+}
+.amount_price_pay {
+color: #00b242;
+font-size: 40px;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+margin-top: 28px;
+margin-bottom: 6px;
+}
+.payment_gateway_btn {
+  text-align: center;
+}
